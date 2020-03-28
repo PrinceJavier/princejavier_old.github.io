@@ -7,3 +7,5 @@
   
 # theme: jekyll-theme-minimal
 google_analytics: UA-150364500-1 # your Google Analytics tracking ID here
+
+theme: jekyll-theme-leap-day
