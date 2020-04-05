@@ -21,6 +21,11 @@ I am an engineer, data scientist, and cofounder of Bridge360, a tech startup bas
 <br>[Questions on the Danger of Data](/blogs/danger_of_data)
 
 ### Projects
+[Binary Search for COVID Testing](/covid_binary_search/index)
+<p align='left'>
+<img src="covid_binary_search/media/img6.png" width='350'>
+</p>
+<br>
 [nCOV Visualization](/ncov_viz/index)
 <p align='left'>
 <img src="ncov_viz/media/covid_pic.png" width='350'>
