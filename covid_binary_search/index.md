@@ -62,6 +62,14 @@ From our sensitivity analyses and given the same assumptions as above, we find t
 
 We have shown that binary search performs consistently on par or better than linear search or one-vs-all search in terms of accuracy, `FNR`, and `PPT` Binary search may be a viable option for mass testing for COVID if the proportion of infected is below 30%.
 
+## References
+<br>https://arxiv.org/abs/2003.09944
+<br>https://www.rappler.com/nation/255060-math-model-coronavirus-cases-metro-manila-could-peak-mid-april-not-contained
+<br>https://www.doh.gov.ph/2019-nCoV
+<br>https://www.cnnphilippines.com/news/2020/4/3/coronavirus-mass-testing-philippines.html
+<br>https://www.weforum.org/agenda/2020/03/south-korea-covid-19-containment-testing/
+<br>https://www.cnnphilippines.com/news/2020/4/3/coronavirus-mass-testing-philippines.html
+
 ## Disclaimer
 We do not claim that the values our model will predict are absolute truths nor do we claim that the code we prepared are free of bugs. Feel free to examine the code.
 <br>Our model, assumptions, and sample analysis have not been verified by epidemiologists. The assumptions in our model can be tweaked as needed.
