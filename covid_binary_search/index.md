@@ -33,7 +33,15 @@ We compute:
 * `w_opt` - optimal pool size
 
 ## Simulation Results
-
+<img src="media/img1.png"/>
+<img src="media/img2.png"/>
+<img src="media/img3.png"/>
+<img src="media/img4.png"/>
+<img src="media/img5.png"/>
+<img src="media/img6.png"/>
+<img src="media/img7.png"/>
+<img src="media/img8.png"/>
+<img src="media/img9.png"/>
 
 ## Sample Analysis
 
@@ -48,12 +56,11 @@ From our sensitivity analyses and given the same assumptions as above, we find t
 * `PPT` consistently increases with higher `w` for binary search. Intuitively, `PPT` of linear search is not affected while `PPT` of one-vs-all search peaks at a certain `w` then goes down for higher `w`.
 * Linear search is more stable over increasing infection rates `i` compared to both one-vs-all and binary search
 * Accuracy of linear search is stable over infection rates, while the accuracy decreases with higher `i` for both binary search and one-vs-all search. However, the decline is smaller for binary search.
-* `PPT` of both binary search and one-vs-all search are severely impacted by increasing `i`. At infection rates between 30-40%, `PPT` of binary search falls below linear search and one-vs-all search.
+* `PPTs` of both binary search and one-vs-all search are severely impacted by increasing `i`. At infection rates between 30-40%, `PPT` of binary search falls below linear search and one-vs-all search.
 
-We have shown that binary search performs consistently on-par or better than linear search or one-vs-all search in terms of accuracy, `FNR`, and `PPT` Binary search may be a viable option for mass testing of COVID for infection rates below 30%.
+We have shown that binary search performs consistently on par or better than linear search or one-vs-all search in terms of accuracy, `FNR`, and `PPT` Binary search may be a viable option for mass testing of COVID for infection rates below 30%.
 
 ## Disclaimer
-We do not claim that the values our model will predict are absolute truths nor do we claim that the code we prepared are free of bugs. Feel free to
-examine the code.
+We do not claim that the values our model will predict are absolute truths nor do we claim that the code we prepared are free of bugs. Feel free to examine the code.
 <br>Our model, assumptions, and sample analysis have not been verified by epidemiologists. The assumptions in our model can be tweaked as needed.
 <br>We assume that the test kit performance will be the same whether or not the sample is pooled. We did not take into consideration any possible change in test kit accuracy if we pool up samples rather than test each user one by one. 
