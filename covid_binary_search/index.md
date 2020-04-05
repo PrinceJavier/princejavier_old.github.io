@@ -45,7 +45,9 @@ We compute:
 
 ## Sample Analysis
 
-If we implement random mass testing using binary search algorithm starting with 16 persons for a community of 3000 with an estimated infection rate of 1% and using one test kit per sample pool, we may expect an efficiency gain of 1.9X over One-vs-All search and more than 7X over linear search. Put this another way, given the same number of test kits, we may expect almost a two-fold increase in the number of people tested over One-vs-All search and a 7-fold increase over linear search.
+If we implement random mass testing using binary search algorithm starting with 16 persons for a community of 3000 with an estimated infection rate of 1% and using one test kit per sample pool, we may expect an efficiency gain of 1.9X over One-vs-All search and more than 7X over testing individuals one by one (linear search).
+
+Put this another way, given the same number of test kits, we may expect almost a two-fold increase in the number of people tested over One-vs-All search and a 7-fold increase over linear search.
 
 Given test kits with 10% false positive rate and 10% false negative rate, we get around 0.08% false negative rate using Binary Search or Linear Search and 0.18% `FNR` using one-vs-all search.
 
@@ -58,7 +60,7 @@ From our sensitivity analyses and given the same assumptions as above, we find t
 * Accuracy of linear search is stable over infection rates, while the accuracy decreases with higher `i` for both binary search and one-vs-all search. However, the decline is smaller for binary search.
 * `PPTs` of both binary search and one-vs-all search are severely impacted by increasing `i`. At infection rates between 30-40%, `PPT` of binary search falls below linear search and one-vs-all search.
 
-We have shown that binary search performs consistently on par or better than linear search or one-vs-all search in terms of accuracy, `FNR`, and `PPT` Binary search may be a viable option for mass testing of COVID for infection rates below 30%.
+We have shown that binary search performs consistently on par or better than linear search or one-vs-all search in terms of accuracy, `FNR`, and `PPT` Binary search may be a viable option for mass testing for COVID if the proportion of infected is below 30%.
 
 ## Disclaimer
 We do not claim that the values our model will predict are absolute truths nor do we claim that the code we prepared are free of bugs. Feel free to examine the code.
