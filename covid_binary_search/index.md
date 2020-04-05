@@ -29,7 +29,7 @@ Given:
 We compute:
 * `PPT` - average number of persons that will be tested by each test kit
 * `FNR` - false negative rate. Propotion of infected individuals missed by pooled testing
-* `ACC` - accuracy of testing via binary search algorithm measured by (correct results/total results)
+* `ACC` - accuracy of testing computed by (num correct results/total results)
 * `w_opt` - optimal pool size
 
 ## Simulation Results
