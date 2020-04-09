@@ -13,14 +13,20 @@ I am an engineer, data scientist, and cofounder of Bridge360, a tech startup bas
 ### Presentation Slides
 [What is Data Science - PSHS YMSAT Week 2020](/pshs_talk_datascience/index)
 
-### Blogs
-[Towards Good Data Visualization](/revamp_data_viz_talk/index)
+### Blogs & Podcasts
+[TechPh Podcast: Data Science and COVID-19](https://anchor.fm/luis-baring/episodes/Episode-1-Data-Science-and-COVID-19-with-Prince-Javier-echrls?fbclid=IwAR0HojJeF_sYvZXfH5MlOkWBnqN55eoQmRThG3vr6_3pvkXXge3FvsP_YuM)
+<br>[Towards Good Data Visualization](/revamp_data_viz_talk/index)
 <br>[Why Science is Flawed, But That's Alright](/blogs/why_science_is_flawed)
 <br>[Reflections on Per Bak's How Nature Works](/blogs/how_nature_works)
 <br>[Complex Systems: An Emerging Paradigm](/blogs/complex_systems_paradigm)
 <br>[Questions on the Danger of Data](/blogs/danger_of_data)
 
 ### Projects
+[Project Moses Website](http://www.projectmoses.ph/)
+<p align='left'>
+<img src="http://www.projectmoses.ph/static/img/logo_small.png" width='350'>
+</p>
+<br>
 [Binary Search for COVID Testing](/covid_binary_search/index)
 <p align='left'>
 <img src="covid_binary_search/media/img6.png" width='350'>
