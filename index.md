@@ -24,7 +24,7 @@ I am an engineer, data scientist, and cofounder of Bridge360, a tech startup bas
 ### Projects
 [Project Moses Website](http://www.projectmoses.ph/)
 <p align='left'>
-<img src="http://www.projectmoses.ph/static/img/logo_small.png" width='350'>
+<img src="https://www.projectmoses.ph/ASSETS/img/BETAProj%20moses%20logo%20Horizontal-08.png" width='350'>
 </p>
 <br>
 [Binary Search for COVID Testing](/covid_binary_search/index)
